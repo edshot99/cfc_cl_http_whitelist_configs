@@ -9,6 +9,7 @@ return {
 
     addresses = {
         -- TODO can we delete these, we have *.cfcservers.org?
+        ["www.html5rocks.com"] = {allowed=true, permanent=true},
         ["nanny.cfcservers.org"] = {allowed=true, noisy=true, permanent=true},
         ["paste.cfcservers.org"] = {allowed=true, noisy=true, permanent=true},
         ["cdn.cfcservers.org"] = {allowed=true, noisy=true, permanent=true},   
