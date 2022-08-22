@@ -9,11 +9,21 @@ return {
 
     addresses = {
         -- TODO can we delete these, we have *.cfcservers.org?
-        ["www.html5rocks.com"] = {allowed=true, permanent=true},
+        
+        
         ["nanny.cfcservers.org"] = {allowed=true, noisy=true, permanent=true},
         ["paste.cfcservers.org"] = {allowed=true, noisy=true, permanent=true},
         ["cdn.cfcservers.org"] = {allowed=true, noisy=true, permanent=true},   
         
+        -- dino game has this in the html
+        ["www.html5rocks.com"] = {allowed=true, permanent=true},
+        
+        -- domains starfall docs have
+        ["npms.io"] = {allowed=true},
+        ["fb.me"] = {allowed=true},
+        ["reactjs.org"] = {allowed=true},
+        ["www.w3.org"] = {allowed=true},
+
         ["*.cfcservers.org"] = {allowed=true, permanent=true},
         ["cfcservers.org"] = {allowed=true, permanent=true},
 
