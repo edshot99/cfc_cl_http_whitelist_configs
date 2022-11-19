@@ -37,7 +37,7 @@ return {
         ["*.fox.pics"] = {allowed=true},
 
         -- media player
-        ["samuelmaddock.github.io"] = {allowed=true} -- Media player
+        ["samuelmaddock.github.io"] = {allowed=true}, -- Media player
         
         -- Express
         ["gmod.express"] = {allowed=true, permanent=true}
