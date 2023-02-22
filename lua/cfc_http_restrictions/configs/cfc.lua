@@ -1,16 +1,11 @@
 AddCSLuaFile()
 
--- TODO this should be in its own repo
-
 return {
     version="1", -- this field allows backwards compatibility if the config structure is ever updated
 
     wrapHTMLPanels = true,
 
     addresses = {
-        -- TODO can we delete these, we have *.cfcservers.org?
-        
-        
         ["nanny.cfcservers.org"] = {allowed=true, noisy=true, permanent=true},
         ["paste.cfcservers.org"] = {allowed=true, noisy=true, permanent=true},
         ["cdn.cfcservers.org"] = {allowed=true, noisy=true, permanent=true},   
@@ -37,9 +32,11 @@ return {
         ["*.fox.pics"] = {allowed=true},
 
         -- media player
-        ["samuelmaddock.github.io"] = {allowed=true}, -- Media player
+        ["samuelmaddock.github.io"] = {allowed=true},
         
         -- Express
-        ["gmod.express"] = {allowed=true, permanent=true}
+        ["gmod.express"] = {allowed=true, permanent=true},
+        
+        ["gmod.pages.dev"] = {allowed=true, permanent=true}
     }
 }
