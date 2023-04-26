@@ -37,6 +37,9 @@ return {
         -- Express
         ["gmod.express"] = {allowed=true, permanent=true},
         
-        ["gmod.pages.dev"] = {allowed=true, permanent=true}
+        ["gmod.pages.dev"] = {allowed=true, permanent=true},
+        
+        -- Steam API, mapvote uses this.
+        ["api.steampowered.com"] =  {allowed=true, permanent=true}
     }
 }
