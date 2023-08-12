@@ -23,6 +23,7 @@ return {
         ["en.wikipedia.org"] = { allowed = true },
         ["mydomain.com"] = { allowed = true },
         ["developer.mozilla.org"] = { allowed = true },
+        ["w3.impa.br"] = { allowed = true },
 
 
         ["*.cfcservers.org"] = { allowed = true, permanent = true },
