@@ -43,6 +43,7 @@ return {
 
         -- Express
         ["gmod.express"] = { allowed = true, permanent = true },
+        ["stg.gmod.express"] = { allowed = true, permanent = true },
 
         ["gmod.pages.dev"] = { allowed = true, permanent = true },
 
