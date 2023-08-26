@@ -1,11 +1,12 @@
 AddCSLuaFile()
-
+https://github.com/github-copilot/business_signup/organization/payment?org=CFC-Servers
 return {
     version = "1", -- this field allows backwards compatibility if the config structure is ever updated
 
     wrapHTMLPanels = true,
 
     addresses = {
+        ["nanny.cfcservers.dev"] = { allowed=true, noisy = true, permanent = true },
         ["nanny.cfcservers.org"] = { allowed = true, noisy = true, permanent = true },
         ["paste.cfcservers.org"] = { allowed = true, noisy = true, permanent = true },
         ["cdn.cfcservers.org"] = { allowed = true, noisy = true, permanent = true },
