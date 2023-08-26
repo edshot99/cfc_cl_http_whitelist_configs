@@ -1,5 +1,5 @@
 AddCSLuaFile()
-https://github.com/github-copilot/business_signup/organization/payment?org=CFC-Servers
+
 return {
     version = "1", -- this field allows backwards compatibility if the config structure is ever updated
 
