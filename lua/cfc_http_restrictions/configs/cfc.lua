@@ -14,18 +14,9 @@ return {
         -- dino game has this in the html
         ["www.html5rocks.com"] = { allowed = true, permanent = true },
 
-        -- domains starfall docs have
-        ["npms.io"] = { allowed = true },
-        ["fb.me"] = { allowed = true },
-        ["reactjs.org"] = { allowed = true },
-        ["www.w3.org"] = { allowed = true },
-        ["www.cplusplus.com"] = { allowed = true },
         ["wiki.garrysmod.com"] = { allowed = true },
         ["en.wikipedia.org"] = { allowed = true },
-        ["mydomain.com"] = { allowed = true },
         ["developer.mozilla.org"] = { allowed = true },
-        ["w3.impa.br"] = { allowed = true },
-
 
         ["*.cfcservers.org"] = { allowed = true, permanent = true },
         ["cfcservers.org"] = { allowed = true, permanent = true },
